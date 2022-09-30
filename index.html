@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="./style.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap" rel="stylesheet">
+ <title>Hajen Simsällskap</title>
+</head>
+<body>
+ <div class="header">
+  <h1 class="name">Hajen Simsällskap</h1>
+ </div>
+ <div class="main-content">
+  <div class="br-nav">
+   <div class="nav">
+    <ul>
+     <li><a href="./index.html">Hem</a> </li>
+     <li>Boka Kurs</li>
+     <li>Kontakt</li>
+    </ul>
+   </div>
+  </div>
+  
+  <div class="content">
+    <!----------------------left content----------------------->
+   <div class="left-content">
+    <h2>Välkommen till Hajen Simsällskap!</h2>
+    <p>Vi ser fram emot ditt besök, eftersom den stora poolen har öppnats efter att vi har utfört en del reparationer. Dessutom kommer vi snart att finnas här på vår sida med alla nyheter om föreningen och medlemsinformation då vi jobbar med några modifieringar här och vårt huvudfokus är att göra sidan lättnavigerad för dig som besökare så att du kan enkelt hitta den information du söker, oavsett om det är information om simskolan, eller träningstider.</p>
+   </div>
+   <!-----------------------------log in---------------------------->
+   <div class="logga-in">
+    <form>
+     <label for="uname"> Användar Namn:</label><br>
+     <input type="text" id="name" placeholder="Användar Namn" required><br>
+     <label for="psw"> Lösenord:</label><br>
+     <input type="password" id="psw" placeholder="Lösenord" required><br>
+     <button type="button" id="button" onclick="myFunction()"  value="Logga in">Logga in</button>
+     <button type="button" id="cancelbtn" onclick="idLogout()">logga ut</button><br><br>
+     <label>
+      <input type="checkbox" name="rememberMe" checked="checked" id="rememberMe">Logga in automatiskt
+     </label>
+     <p id="hello"></p>
+    </form>
+   </div>
+   <!------------------------------------------------------------------>
+ 
+   <div class="left-img">
+    <img src="./img/image1.jpg" id="left-photo" alt="Swimming Pool" width="100%">
+   </div>
+   <!----------------------right content----------------------------->
+
+   <div class="right-content">
+    <h4>Policy:</h4>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+    </p>
+   </div>
+  </div><!--end of content-->
+  <!------------------------------------------------------------------>
+
+  <div class="center-img">
+   <img src="./img/image2.jpg" alt="Swimming Pool" width="100%" class="down-img">
+  </div>
+  <!------------------------------------------------------------------>
+  <div class="br-footer">
+   <div class="footer">
+    <p>
+    Hajen.Simsällskap@gmail.com | 0700551099 | Nasaret18,Varberg
+    </p>
+  </div>
+  </div>
+ </div><!--end of main-content-->
+ <script src="./script.js"></script>
+</body>
+</html>
