@@ -77,12 +77,7 @@ body{
   color: black;
   border-radius: 5px;
  }
-.logga-in :hover {
-  cursor: default;
-  transform: translateY(-5px);
-  box-shadow: 1px 4px 15px rgba(100, 99, 99, 0.32);
-  
- }
+
  form ,label{
   text-align: left;
  }
