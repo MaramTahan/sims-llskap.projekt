@@ -1,7 +1,7 @@
 function myFunction() {
  let name = document.getElementById("name").value;
  let psw = document.getElementById("psw").value;
- let rmCheck = document.getElementById("checkbox");
+ 
  //here save user input in localStorage
  localStorage.setItem('name',(name));
  localStorage.setItem('psw',(psw));
