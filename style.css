@@ -11,7 +11,7 @@ body{
  font-family: "Roboto Condensed", sans-serif;
  
 }
-/*all in the white block*/
+
 .main-content{
  background-color: #fff;
  margin: 5%;
@@ -24,7 +24,7 @@ body{
 .header .name{
  font-size: 5rem;
  color: #fff;
- text-shadow:2px 2px 2px gray;
+ text-shadow:6px 4px 4px rgb(11, 8, 90);
  margin-top:100px;
  margin: 100px;
  text-align: center;
@@ -120,7 +120,7 @@ img {
  border-radius: 5px;
 }
 /*--------------------------------------------*/
-/*just for center img*/
+
 .center-img {
  display: block;
  margin-left: auto;
@@ -150,7 +150,7 @@ img {
  text-align: center;
 }
 
-/*Responsiv design för mobile phones */
+
 @media screen and (max-width: 600px){
   .content{
     display: grid;
