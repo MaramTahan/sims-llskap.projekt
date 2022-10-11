@@ -18,6 +18,7 @@ function myFunction() {
  else {
   /*otherwise appear a message to login again*/
   document.getElementById("hello").innerHTML = "<p>Lösenordet eller användarnamnet är felaktigt, gärna försök igen</p> <br>"
+  //create button
   let formTag = document.querySelector("form");
   let btnAgain = document.createElement("button");
   let btnAgainText = document.createTextNode("Försöka Igen");
