@@ -11,7 +11,7 @@ body{
  font-family: "Roboto Condensed", sans-serif;
  
 }
-
+/*all in the white block*/
 .main-content{
  background-color: #fff;
  margin: 5%;
@@ -149,8 +149,8 @@ img {
  font-weight: bold;
  text-align: center;
 }
-
-
+/*--------------------------------------------*/
+/*Responsiv design för mobile phones */
 @media screen and (max-width: 600px){
   .content{
     display: grid;
