@@ -4,7 +4,7 @@
  box-sizing: border-box;
  list-style: none;
 }
-body{
+body {
  background-image: url(./img/image4.jpg);
  background-position: 100% 100%;
  background-size: 100% 100%;
@@ -12,7 +12,7 @@ body{
  
 }
 /*all in the white block*/
-.main-content{
+.main-content {
  background-color: #fff;
  margin: 5%;
  height: 100%;
@@ -21,7 +21,7 @@ body{
  
 }
 /*--------------------------------------------*/
-.header .name{
+.header .name {
  font-size: 5rem;
  color: #fff;
  text-shadow:6px 4px 4px rgb(11, 8, 90);
@@ -30,7 +30,7 @@ body{
  text-align: center;
 }
 /*--------------------------------------------*/
-.br-nav{
+.br-nav {
  background-color: rgb(60, 141, 179);
  border-bottom:5px solid rgb(11, 8, 90);
  padding: 2%;
@@ -41,12 +41,12 @@ body{
  text-decoration: none;
  width: 100%;
 }
-.nav li{
+.nav li {
  display: inline;
  margin-right: 40px;
  font-weight: bold;
  }
- .nav li :hover{
+ .nav li :hover {
   background-color: #fff;
   border-radius: 3px;
   padding: 5px;
@@ -54,12 +54,12 @@ body{
  .nav ul {
   text-align: center;
  }
- .nav a{
+ .nav a {
   text-decoration: none;
   color: black;
  }
  /*--------------------------------------------*/
- .content{
+ .content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
  }
@@ -78,7 +78,7 @@ body{
   border-radius: 5px;
  }
 
- form ,label{
+ form ,label {
   text-align: left;
  }
  input[type=text], input[type=password] {
@@ -88,7 +88,6 @@ body{
   display: inline-block;
   border: 1px solid rgb(11, 8, 90);
   box-sizing: border-box;
-  
  }
  button {
   background-color: rgb(11, 8, 90);
@@ -100,11 +99,16 @@ body{
   width: 30%;
   display: inline;
 }
-button:hover{
+button:hover {
  opacity: 0.8;
 }
+
+#hello {
+  font-size: 150%;
+  color: rgb(32, 200, 32);
+}
 /*----------------------paragraph----------------------*/
-.left-content{
+.left-content {
  margin: 5%;
  padding: 5%;
 }
@@ -113,7 +117,7 @@ button:hover{
   
  padding: 5%;
 }
-#left-photo{
+#left-photo {
   height: 100%;
 }
 img {
@@ -129,7 +133,7 @@ img {
 }
 
 /*-----------------------policy---------------------*/
-.right-content{
+.right-content {
  border: 3px solid rgb(11, 8, 90);
  padding: 5%;
  border-radius: 5px;
@@ -140,7 +144,7 @@ img {
 }
 
 /*--------------------------------------------*/
-.br-footer{
+.br-footer {
  background-color: rgb(60, 141, 179);
  padding: 2%;
  border-top: 5px solid rgb(11, 8, 90);
@@ -151,7 +155,7 @@ img {
 }
 /*--------------------------------------------*/
 /*Responsiv design för mobile phones */
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
   .content{
     display: grid;
     grid-template-columns: 1fr;
