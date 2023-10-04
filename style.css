@@ -97,10 +97,13 @@ body {
   border: none;
   cursor: pointer;
   width: 30%;
-  display: inline;
+  display: block;
 }
 button:hover {
  opacity: 0.8;
+}
+#retry{
+  margin-top: 10px;
 }
 
 #hello {
@@ -169,6 +172,3 @@ img {
     text-align: center;
    }
 }
-
-
-

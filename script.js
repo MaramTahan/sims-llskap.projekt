@@ -18,19 +18,40 @@ loginButton.addEventListener("click", function(){
   document.getElementById("loginbtn").style.visibility = "hidden";
   document.getElementById("logoutbtn").style.visibility = "visible";
   loggedIn();
+  document.getElementById("retry").style.visibility = "hidden";
+  document.getElementById("error").style.visibility = "hidden";
+  
+  
  }
  else {
   /*otherwise appear a wrong message to login again*/
-  document.getElementById("hello").innerHTML = "<br> <p>Lösenordet eller användarnamnet är felaktigt, gärna försök igen</p>";
-  document.getElementById("hello").style.color = "red";
+  document.getElementById("error").innerHTML = "<br> <p>Lösenordet eller användarnamnet är felaktigt, gärna försök igen</p>";
+  document.getElementById("error").style.color = "red";
 
+ /*create new element(retry)
+ and give it function to don't replay more than one time*/
 
+  if(!document.getElementById("retry")){
+   const retryBtn = document.createElement ("button");
+   retryBtn.id = "retry";
+   retryBtn.textContent = "Försöka Igen";
+   retryBtn.addEventListener("click", () => {
+    error.textContent = "";
+    nameInput.value = "";
+    passInput.value = "";
+    retryBtn.style.display = "none";
+   });
+   error.appendChild(retryBtn);
+  }
+  
+  //-----------------------------------------------
   //create button to try login again
-  let formTag = document.querySelector("form");
-  let btnAgain = document.createElement("button");
-  let btnAgainText = document.createTextNode("Försöka Igen");
-  btnAgain.appendChild(btnAgainText);
-  formTag.appendChild(btnAgain);
+  // let formTag = document.querySelector("form");
+  // let btnAgain = document.createElement("button");
+  // let btnAgainText = document.createTextNode("Försöka Igen");
+  // btnAgain.appendChild(btnAgainText);
+  // formTag.appendChild(btnAgain);
+  //---------------------------------------------
  }
 })
 
